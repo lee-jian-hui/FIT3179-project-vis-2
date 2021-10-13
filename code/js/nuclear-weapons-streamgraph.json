@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500, "height": 500,
+  "title": "Nuclear Warheads Count Streamgraph",
+  "data": {
+    "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/number-of-nuclear-warheads-in-the-inventory-of-the-nuclear-powers.csv"
+  },
+  "transform": [
+    {"calculate": "datum.Entity", "as": "Country"},
+    {"calculate": "datum.Nuclear_Weapons_Count", "as": "Nuclear Weapons Count"}
+  ],
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "timeUnit": "year", "field": "Year",
+      "axis": {"domain": false, "tickSize": 0}
+    },
+    "y": {
+      "aggregate": "sum", "field": "Nuclear Weapons Count",
+      "axis": null,
+      "stack": "center"
+    },
+    "color": {
+      "field":"Country", 
+      "scale":{"scheme": "category20b"}
+    }
+  }
+}
