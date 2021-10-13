@@ -4,17 +4,13 @@
     "height": 400,
     "description": "thickness is not a channel since you shouldn't do ticks with varying thickness.",
     "title": {
-        "text": "Registered Cars in Portugal",
+        "text": "Rank of Energy Consumption from various Energy Sources Over The Years (TWH)",
         "color": "navy",
         "fontSize": 22,
         "align": "center",
         "anchor": "middle",
         "dy": -1,
-        "baseline": "middle",
-        "subtitle": "data from https://acap.pt/",
-        "subtitleColor": "navy",
-        "subtitleFontSize": 18,
-        "subtitlePadding": 5
+        "baseline": "middle"
     },
     "data": {
         "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/world-energy-consumption-sum.csv"
@@ -72,22 +68,8 @@
     ],
     "encoding": {
         "x": {
-            "field": "month",
+            "field": "year",
             "type": "ordinal",
-            "sort": [
-                "Jan",
-                "Feb",
-                "Mar",
-                "Apr",
-                "May",
-                "Jun",
-                "Jul",
-                "Aug",
-                "Sep",
-                "Oct",
-                "Nov",
-                "Dec"
-            ],
             "axis": {
                 "labelAngle": 0,
                 "labelFontSize": 12,
