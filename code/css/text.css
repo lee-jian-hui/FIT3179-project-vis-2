@@ -1,0 +1,45 @@
+
+/* specifies text formatting for title, subheaders and body text */
+
+h1{
+    text-align: center;
+    size: 50px;
+    font-weight: 900;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h2{
+    text-align: center;
+    size: 25px;
+    color: #fcd303;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.p1{
+    size: 10px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

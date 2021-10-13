@@ -4,7 +4,7 @@
   "width": 500,
   "title": "Deaths per TwH of Each Energy Type",
   "data": {
-    "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-homework-week-10/master/data/death-rates-from-energy-production-per-twh.csv"
+    "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/death-rates-from-energy-production-per-twh.csv"
   },
   "transform": [
     {"calculate": "datum.Entity", "as": "Energy Type"},

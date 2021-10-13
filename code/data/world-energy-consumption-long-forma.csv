@@ -10,7 +10,6 @@ OWID_WRL,World,1965,low_carbon_consumption,2685.343
 OWID_WRL,World,1965,nuclear_consumption,70.944
 OWID_WRL,World,1965,oil_consumption,18108.643
 OWID_WRL,World,1965,other_renewable_consumption,49.959
-OWID_WRL,World,1965,primary_energy_consumption,43247.517
 OWID_WRL,World,1965,renewables_consumption,2614.4
 OWID_WRL,World,1965,solar_consumption,0.0
 OWID_WRL,World,1965,wind_consumption,0.0
@@ -25,7 +24,6 @@ OWID_WRL,World,1966,low_carbon_consumption,2883.492
 OWID_WRL,World,1966,nuclear_consumption,95.648
 OWID_WRL,World,1966,oil_consumption,19496.471
 OWID_WRL,World,1966,other_renewable_consumption,55.017
-OWID_WRL,World,1966,primary_energy_consumption,45582.596
 OWID_WRL,World,1966,renewables_consumption,2787.844
 OWID_WRL,World,1966,solar_consumption,0.0
 OWID_WRL,World,1966,wind_consumption,0.0
@@ -40,7 +38,6 @@ OWID_WRL,World,1967,low_carbon_consumption,2963.156
 OWID_WRL,World,1967,nuclear_consumption,113.906
 OWID_WRL,World,1967,oil_consumption,20890.58
 OWID_WRL,World,1967,other_renewable_consumption,55.518
-OWID_WRL,World,1967,primary_energy_consumption,47298.513
 OWID_WRL,World,1967,renewables_consumption,2849.25
 OWID_WRL,World,1967,solar_consumption,0.0
 OWID_WRL,World,1967,wind_consumption,0.0
@@ -55,7 +52,6 @@ OWID_WRL,World,1968,low_carbon_consumption,3148.675
 OWID_WRL,World,1968,nuclear_consumption,144.759
 OWID_WRL,World,1968,oil_consumption,22675.466
 OWID_WRL,World,1968,other_renewable_consumption,61.445
-OWID_WRL,World,1968,primary_energy_consumption,50179.728
 OWID_WRL,World,1968,renewables_consumption,3003.916
 OWID_WRL,World,1968,solar_consumption,0.0
 OWID_WRL,World,1968,wind_consumption,0.0
@@ -70,7 +66,6 @@ OWID_WRL,World,1969,low_carbon_consumption,3352.182
 OWID_WRL,World,1969,nuclear_consumption,171.621
 OWID_WRL,World,1969,oil_consumption,24576.884
 OWID_WRL,World,1969,other_renewable_consumption,64.606
-OWID_WRL,World,1969,primary_energy_consumption,53571.509
 OWID_WRL,World,1969,renewables_consumption,3180.561
 OWID_WRL,World,1969,solar_consumption,0.0
 OWID_WRL,World,1969,wind_consumption,0.0
@@ -85,7 +80,6 @@ OWID_WRL,World,1970,low_carbon_consumption,3553.379
 OWID_WRL,World,1970,nuclear_consumption,219.096
 OWID_WRL,World,1970,oil_consumption,26708.063
 OWID_WRL,World,1970,other_renewable_consumption,71.37
-OWID_WRL,World,1970,primary_energy_consumption,56946.457
 OWID_WRL,World,1970,renewables_consumption,3334.283
 OWID_WRL,World,1970,solar_consumption,0.0
 OWID_WRL,World,1970,wind_consumption,0.0
@@ -100,7 +94,6 @@ OWID_WRL,World,1971,low_carbon_consumption,3790.693
 OWID_WRL,World,1971,nuclear_consumption,304.734
 OWID_WRL,World,1971,oil_consumption,28204.844
 OWID_WRL,World,1971,other_renewable_consumption,77.442
-OWID_WRL,World,1971,primary_energy_consumption,59265.924
 OWID_WRL,World,1971,renewables_consumption,3485.959
 OWID_WRL,World,1971,solar_consumption,0.0
 OWID_WRL,World,1971,wind_consumption,0.0
@@ -115,7 +108,6 @@ OWID_WRL,World,1972,low_carbon_consumption,4074.122
 OWID_WRL,World,1972,nuclear_consumption,422.709
 OWID_WRL,World,1972,oil_consumption,30377.966
 OWID_WRL,World,1972,other_renewable_consumption,82.992
-OWID_WRL,World,1972,primary_energy_consumption,62481.338
 OWID_WRL,World,1972,renewables_consumption,3651.413
 OWID_WRL,World,1972,solar_consumption,0.0
 OWID_WRL,World,1972,wind_consumption,0.0
@@ -130,7 +122,6 @@ OWID_WRL,World,1973,low_carbon_consumption,4274.992
 OWID_WRL,World,1973,nuclear_consumption,566.394
 OWID_WRL,World,1973,oil_consumption,32746.14
 OWID_WRL,World,1973,other_renewable_consumption,89.125
-OWID_WRL,World,1973,primary_energy_consumption,66078.908
 OWID_WRL,World,1973,renewables_consumption,3708.599
 OWID_WRL,World,1973,solar_consumption,0.0
 OWID_WRL,World,1973,wind_consumption,0.0
@@ -145,7 +136,6 @@ OWID_WRL,World,1974,low_carbon_consumption,4810.626
 OWID_WRL,World,1974,nuclear_consumption,740.556
 OWID_WRL,World,1974,oil_consumption,32272.443
 OWID_WRL,World,1974,other_renewable_consumption,94.33
-OWID_WRL,World,1974,primary_energy_consumption,66434.173
 OWID_WRL,World,1974,renewables_consumption,4070.069
 OWID_WRL,World,1974,solar_consumption,0.0
 OWID_WRL,World,1974,wind_consumption,0.0
@@ -160,7 +150,6 @@ OWID_WRL,World,1975,low_carbon_consumption,5147.842
 OWID_WRL,World,1975,nuclear_consumption,1027.357
 OWID_WRL,World,1975,oil_consumption,31948.433
 OWID_WRL,World,1975,other_renewable_consumption,95.788
-OWID_WRL,World,1975,primary_energy_consumption,66793.977
 OWID_WRL,World,1975,renewables_consumption,4120.485
 OWID_WRL,World,1975,solar_consumption,0.0
 OWID_WRL,World,1975,wind_consumption,0.0
@@ -175,7 +164,6 @@ OWID_WRL,World,1976,low_carbon_consumption,5317.413
 OWID_WRL,World,1976,nuclear_consumption,1201.866
 OWID_WRL,World,1976,oil_consumption,34029.701
 OWID_WRL,World,1976,other_renewable_consumption,106.836
-OWID_WRL,World,1976,primary_energy_consumption,70403.161
 OWID_WRL,World,1976,renewables_consumption,4115.547
 OWID_WRL,World,1976,solar_consumption,0.0
 OWID_WRL,World,1976,wind_consumption,0.0
@@ -190,7 +178,6 @@ OWID_WRL,World,1977,low_carbon_consumption,5752.177
 OWID_WRL,World,1977,nuclear_consumption,1495.967
 OWID_WRL,World,1977,oil_consumption,35214.625
 OWID_WRL,World,1977,other_renewable_consumption,112.674
-OWID_WRL,World,1977,primary_energy_consumption,72985.271
 OWID_WRL,World,1977,renewables_consumption,4256.209
 OWID_WRL,World,1977,solar_consumption,0.0
 OWID_WRL,World,1977,wind_consumption,0.0
@@ -205,7 +192,6 @@ OWID_WRL,World,1978,low_carbon_consumption,6342.096
 OWID_WRL,World,1978,nuclear_consumption,1738.319
 OWID_WRL,World,1978,oil_consumption,36425.795
 OWID_WRL,World,1978,other_renewable_consumption,119.354
-OWID_WRL,World,1978,primary_energy_consumption,75542.854
 OWID_WRL,World,1978,renewables_consumption,4603.776
 OWID_WRL,World,1978,solar_consumption,0.0
 OWID_WRL,World,1978,wind_consumption,0.008
@@ -220,7 +206,6 @@ OWID_WRL,World,1979,low_carbon_consumption,6645.073
 OWID_WRL,World,1979,nuclear_consumption,1807.946
 OWID_WRL,World,1979,oil_consumption,37024.093
 OWID_WRL,World,1979,other_renewable_consumption,128.248
-OWID_WRL,World,1979,primary_energy_consumption,78179.278
 OWID_WRL,World,1979,renewables_consumption,4837.128
 OWID_WRL,World,1979,solar_consumption,0.0
 OWID_WRL,World,1979,wind_consumption,0.017
@@ -235,7 +220,6 @@ OWID_WRL,World,1980,low_carbon_consumption,6924.929
 OWID_WRL,World,1980,nuclear_consumption,1977.569
 OWID_WRL,World,1980,oil_consumption,35577.233
 OWID_WRL,World,1980,other_renewable_consumption,137.182
-OWID_WRL,World,1980,primary_energy_consumption,77628.384
 OWID_WRL,World,1980,renewables_consumption,4947.36
 OWID_WRL,World,1980,solar_consumption,0.0
 OWID_WRL,World,1980,wind_consumption,0.029
@@ -250,7 +234,6 @@ OWID_WRL,World,1981,low_carbon_consumption,7396.727
 OWID_WRL,World,1981,nuclear_consumption,2335.421
 OWID_WRL,World,1981,oil_consumption,34295.875
 OWID_WRL,World,1981,other_renewable_consumption,147.652
-OWID_WRL,World,1981,primary_energy_consumption,77265.383
 OWID_WRL,World,1981,renewables_consumption,5061.306
 OWID_WRL,World,1981,solar_consumption,0.0
 OWID_WRL,World,1981,wind_consumption,0.029
@@ -265,7 +248,6 @@ OWID_WRL,World,1982,low_carbon_consumption,7706.883
 OWID_WRL,World,1982,nuclear_consumption,2533.829
 OWID_WRL,World,1982,oil_consumption,33197.934
 OWID_WRL,World,1982,other_renewable_consumption,170.474
-OWID_WRL,World,1982,primary_energy_consumption,76793.964
 OWID_WRL,World,1982,renewables_consumption,5173.054
 OWID_WRL,World,1982,solar_consumption,0.0
 OWID_WRL,World,1982,wind_consumption,0.051
@@ -280,7 +262,6 @@ OWID_WRL,World,1983,low_carbon_consumption,8276.773
 OWID_WRL,World,1983,nuclear_consumption,2871.704
 OWID_WRL,World,1983,oil_consumption,32968.737
 OWID_WRL,World,1983,other_renewable_consumption,188.939
-OWID_WRL,World,1983,primary_energy_consumption,78038.587
 OWID_WRL,World,1983,renewables_consumption,5405.069
 OWID_WRL,World,1983,solar_consumption,0.008
 OWID_WRL,World,1983,wind_consumption,0.091
@@ -295,7 +276,6 @@ OWID_WRL,World,1984,low_carbon_consumption,9088.908
 OWID_WRL,World,1984,nuclear_consumption,3484.915
 OWID_WRL,World,1984,oil_consumption,33738.791
 OWID_WRL,World,1984,other_renewable_consumption,211.137
-OWID_WRL,World,1984,primary_energy_consumption,81783.257
 OWID_WRL,World,1984,renewables_consumption,5603.993
 OWID_WRL,World,1984,solar_consumption,0.018
 OWID_WRL,World,1984,wind_consumption,0.124
@@ -310,7 +290,6 @@ OWID_WRL,World,1985,low_carbon_consumption,9851.576
 OWID_WRL,World,1985,nuclear_consumption,4135.897
 OWID_WRL,World,1985,oil_consumption,33789.184
 OWID_WRL,World,1985,other_renewable_consumption,216.09
-OWID_WRL,World,1985,primary_energy_consumption,83952.22
 OWID_WRL,World,1985,renewables_consumption,5715.68
 OWID_WRL,World,1985,solar_consumption,0.033
 OWID_WRL,World,1985,wind_consumption,0.178
@@ -325,7 +304,6 @@ OWID_WRL,World,1986,low_carbon_consumption,10241.787
 OWID_WRL,World,1986,nuclear_consumption,4429.825
 OWID_WRL,World,1986,oil_consumption,34802.722
 OWID_WRL,World,1986,other_renewable_consumption,237.72
-OWID_WRL,World,1986,primary_energy_consumption,85800.949
 OWID_WRL,World,1986,renewables_consumption,5811.962
 OWID_WRL,World,1986,solar_consumption,0.042
 OWID_WRL,World,1986,wind_consumption,0.386
@@ -340,7 +318,6 @@ OWID_WRL,World,1987,low_carbon_consumption,10723.032
 OWID_WRL,World,1987,nuclear_consumption,4818.707
 OWID_WRL,World,1987,oil_consumption,35499.484
 OWID_WRL,World,1987,other_renewable_consumption,254.564
-OWID_WRL,World,1987,primary_energy_consumption,88795.377
 OWID_WRL,World,1987,renewables_consumption,5904.325
 OWID_WRL,World,1987,solar_consumption,0.029
 OWID_WRL,World,1987,wind_consumption,0.543
@@ -355,7 +332,6 @@ OWID_WRL,World,1988,low_carbon_consumption,11346.1
 OWID_WRL,World,1988,nuclear_consumption,5253.474
 OWID_WRL,World,1988,oil_consumption,36703.079
 OWID_WRL,World,1988,other_renewable_consumption,261.891
-OWID_WRL,World,1988,primary_energy_consumption,92187.866
 OWID_WRL,World,1988,renewables_consumption,6092.626
 OWID_WRL,World,1988,solar_consumption,0.028
 OWID_WRL,World,1988,wind_consumption,0.921
@@ -370,7 +346,6 @@ OWID_WRL,World,1989,low_carbon_consumption,11499.57
 OWID_WRL,World,1989,nuclear_consumption,5402.812
 OWID_WRL,World,1989,oil_consumption,37299.85
 OWID_WRL,World,1989,other_renewable_consumption,289.857
-OWID_WRL,World,1989,primary_energy_consumption,93975.615
 OWID_WRL,World,1989,renewables_consumption,6096.758
 OWID_WRL,World,1989,solar_consumption,0.728
 OWID_WRL,World,1989,wind_consumption,7.36
@@ -385,7 +360,6 @@ OWID_WRL,World,1990,low_carbon_consumption,11992.629
 OWID_WRL,World,1990,nuclear_consumption,5556.843
 OWID_WRL,World,1990,oil_consumption,37690.886
 OWID_WRL,World,1990,other_renewable_consumption,324.89
-OWID_WRL,World,1990,primary_energy_consumption,95062.948
 OWID_WRL,World,1990,renewables_consumption,6435.785
 OWID_WRL,World,1990,solar_consumption,1.079
 OWID_WRL,World,1990,wind_consumption,10.09
@@ -400,7 +374,6 @@ OWID_WRL,World,1991,low_carbon_consumption,12420.196
 OWID_WRL,World,1991,nuclear_consumption,5822.712
 OWID_WRL,World,1991,oil_consumption,37691.227
 OWID_WRL,World,1991,other_renewable_consumption,338.842
-OWID_WRL,World,1991,primary_energy_consumption,95730.26
 OWID_WRL,World,1991,renewables_consumption,6597.484
 OWID_WRL,World,1991,solar_consumption,1.403
 OWID_WRL,World,1991,wind_consumption,11.352
@@ -415,7 +388,6 @@ OWID_WRL,World,1992,low_carbon_consumption,12488.026
 OWID_WRL,World,1992,nuclear_consumption,5866.919
 OWID_WRL,World,1992,oil_consumption,38344.368
 OWID_WRL,World,1992,other_renewable_consumption,363.728
-OWID_WRL,World,1992,primary_energy_consumption,96449.162
 OWID_WRL,World,1992,renewables_consumption,6621.107
 OWID_WRL,World,1992,solar_consumption,1.302
 OWID_WRL,World,1992,wind_consumption,13.148
@@ -430,7 +402,6 @@ OWID_WRL,World,1993,low_carbon_consumption,13076.747
 OWID_WRL,World,1993,nuclear_consumption,6068.966
 OWID_WRL,World,1993,oil_consumption,38099.268
 OWID_WRL,World,1993,other_renewable_consumption,375.783
-OWID_WRL,World,1993,primary_energy_consumption,97120.246
 OWID_WRL,World,1993,renewables_consumption,7007.781
 OWID_WRL,World,1993,solar_consumption,1.546
 OWID_WRL,World,1993,wind_consumption,15.827
@@ -445,7 +416,6 @@ OWID_WRL,World,1994,low_carbon_consumption,13261.399
 OWID_WRL,World,1994,nuclear_consumption,6182.906
 OWID_WRL,World,1994,oil_consumption,38934.965
 OWID_WRL,World,1994,other_renewable_consumption,390.027
-OWID_WRL,World,1994,primary_energy_consumption,98363.268
 OWID_WRL,World,1994,renewables_consumption,7078.493
 OWID_WRL,World,1994,solar_consumption,1.667
 OWID_WRL,World,1994,wind_consumption,19.786
@@ -460,7 +430,6 @@ OWID_WRL,World,1995,low_carbon_consumption,13913.38
 OWID_WRL,World,1995,nuclear_consumption,6451.105
 OWID_WRL,World,1995,oil_consumption,39444.693
 OWID_WRL,World,1995,other_renewable_consumption,406.56
-OWID_WRL,World,1995,primary_energy_consumption,100421.001
 OWID_WRL,World,1995,renewables_consumption,7462.274
 OWID_WRL,World,1995,solar_consumption,1.78
 OWID_WRL,World,1995,wind_consumption,22.95
@@ -475,7 +444,6 @@ OWID_WRL,World,1996,low_carbon_consumption,14253.758
 OWID_WRL,World,1996,nuclear_consumption,6685.564
 OWID_WRL,World,1996,oil_consumption,40380.497
 OWID_WRL,World,1996,other_renewable_consumption,418.238
-OWID_WRL,World,1996,primary_energy_consumption,103369.86
 OWID_WRL,World,1996,renewables_consumption,7568.194
 OWID_WRL,World,1996,solar_consumption,1.959
 OWID_WRL,World,1996,wind_consumption,25.568
@@ -490,7 +458,6 @@ OWID_WRL,World,1997,low_carbon_consumption,14377.597
 OWID_WRL,World,1997,nuclear_consumption,6639.662
 OWID_WRL,World,1997,oil_consumption,41413.258
 OWID_WRL,World,1997,other_renewable_consumption,448.019
-OWID_WRL,World,1997,primary_energy_consumption,104352.044
 OWID_WRL,World,1997,renewables_consumption,7737.935
 OWID_WRL,World,1997,solar_consumption,2.102
 OWID_WRL,World,1997,wind_consumption,33.383
@@ -505,7 +472,6 @@ OWID_WRL,World,1998,low_carbon_consumption,14582.748
 OWID_WRL,World,1998,nuclear_consumption,6753.84
 OWID_WRL,World,1998,oil_consumption,41624.432
 OWID_WRL,World,1998,other_renewable_consumption,468.784
-OWID_WRL,World,1998,primary_energy_consumption,105004.679
 OWID_WRL,World,1998,renewables_consumption,7828.908
 OWID_WRL,World,1998,solar_consumption,2.311
 OWID_WRL,World,1998,wind_consumption,44.226
@@ -520,7 +486,6 @@ OWID_WRL,World,1999,low_carbon_consumption,14933.661
 OWID_WRL,World,1999,nuclear_consumption,7012.121
 OWID_WRL,World,1999,oil_consumption,42371.384
 OWID_WRL,World,1999,other_renewable_consumption,492.76
-OWID_WRL,World,1999,primary_energy_consumption,106902.939
 OWID_WRL,World,1999,renewables_consumption,7921.54
 OWID_WRL,World,1999,solar_consumption,2.545
 OWID_WRL,World,1999,wind_consumption,58.934
@@ -535,7 +500,6 @@ OWID_WRL,World,2000,low_carbon_consumption,15268.987
 OWID_WRL,World,2000,nuclear_consumption,7169.17
 OWID_WRL,World,2000,oil_consumption,42897.191
 OWID_WRL,World,2000,other_renewable_consumption,516.82
-OWID_WRL,World,2000,primary_energy_consumption,109583.378
 OWID_WRL,World,2000,renewables_consumption,8099.817
 OWID_WRL,World,2000,solar_consumption,3.112
 OWID_WRL,World,2000,wind_consumption,87.28
@@ -550,7 +514,6 @@ OWID_WRL,World,2001,low_carbon_consumption,15219.685
 OWID_WRL,World,2001,nuclear_consumption,7323.716
 OWID_WRL,World,2001,oil_consumption,43278.157
 OWID_WRL,World,2001,other_renewable_consumption,529.551
-OWID_WRL,World,2001,primary_energy_consumption,110681.292
 OWID_WRL,World,2001,renewables_consumption,7895.97
 OWID_WRL,World,2001,solar_consumption,3.866
 OWID_WRL,World,2001,wind_consumption,105.949
@@ -565,7 +528,6 @@ OWID_WRL,World,2002,low_carbon_consumption,15469.445
 OWID_WRL,World,2002,nuclear_consumption,7392.732
 OWID_WRL,World,2002,oil_consumption,43639.207
 OWID_WRL,World,2002,other_renewable_consumption,565.829
-OWID_WRL,World,2002,primary_energy_consumption,113106.195
 OWID_WRL,World,2002,renewables_consumption,8076.714
 OWID_WRL,World,2002,solar_consumption,4.837
 OWID_WRL,World,2002,wind_consumption,143.49
@@ -580,7 +542,6 @@ OWID_WRL,World,2003,low_carbon_consumption,15291.334
 OWID_WRL,World,2003,nuclear_consumption,7196.586
 OWID_WRL,World,2003,oil_consumption,44609.516
 OWID_WRL,World,2003,other_renewable_consumption,593.708
-OWID_WRL,World,2003,primary_energy_consumption,117149.37
 OWID_WRL,World,2003,renewables_consumption,8094.747
 OWID_WRL,World,2003,solar_consumption,6.153
 OWID_WRL,World,2003,wind_consumption,171.409
@@ -595,7 +556,6 @@ OWID_WRL,World,2004,low_carbon_consumption,16186.198
 OWID_WRL,World,2004,nuclear_consumption,7475.689
 OWID_WRL,World,2004,oil_consumption,46255.707
 OWID_WRL,World,2004,other_renewable_consumption,636.916
-OWID_WRL,World,2004,primary_energy_consumption,122841.819
 OWID_WRL,World,2004,renewables_consumption,8710.51
 OWID_WRL,World,2004,solar_consumption,8.053
 OWID_WRL,World,2004,wind_consumption,230.413
@@ -610,7 +570,6 @@ OWID_WRL,World,2005,low_carbon_consumption,16506.912
 OWID_WRL,World,2005,nuclear_consumption,7447.91
 OWID_WRL,World,2005,oil_consumption,46824.25
 OWID_WRL,World,2005,other_renewable_consumption,684.812
-OWID_WRL,World,2005,primary_energy_consumption,126965.866
 OWID_WRL,World,2005,renewables_consumption,9059.002
 OWID_WRL,World,2005,solar_consumption,11.205
 OWID_WRL,World,2005,wind_consumption,279.978
@@ -625,7 +584,6 @@ OWID_WRL,World,2006,low_carbon_consumption,16982.305
 OWID_WRL,World,2006,nuclear_consumption,7493.281
 OWID_WRL,World,2006,oil_consumption,47366.831
 OWID_WRL,World,2006,other_renewable_consumption,726.227
-OWID_WRL,World,2006,primary_energy_consumption,130595.462
 OWID_WRL,World,2006,renewables_consumption,9489.024
 OWID_WRL,World,2006,solar_consumption,15.293
 OWID_WRL,World,2006,wind_consumption,355.127
@@ -640,7 +598,6 @@ OWID_WRL,World,2007,low_carbon_consumption,17125.569
 OWID_WRL,World,2007,nuclear_consumption,7294.706
 OWID_WRL,World,2007,oil_consumption,47957.516
 OWID_WRL,World,2007,other_renewable_consumption,783.021
-OWID_WRL,World,2007,primary_energy_consumption,134630.407
 OWID_WRL,World,2007,renewables_consumption,9830.863
 OWID_WRL,World,2007,solar_consumption,20.64
 OWID_WRL,World,2007,wind_consumption,453.503
@@ -655,7 +612,6 @@ OWID_WRL,World,2008,low_carbon_consumption,17814.072
 OWID_WRL,World,2008,nuclear_consumption,7226.874
 OWID_WRL,World,2008,oil_consumption,47565.65
 OWID_WRL,World,2008,other_renewable_consumption,832.851
-OWID_WRL,World,2008,primary_energy_consumption,136174.532
 OWID_WRL,World,2008,renewables_consumption,10587.198
 OWID_WRL,World,2008,solar_consumption,33.376
 OWID_WRL,World,2008,wind_consumption,582.461
@@ -670,7 +626,6 @@ OWID_WRL,World,2009,low_carbon_consumption,17902.397
 OWID_WRL,World,2009,nuclear_consumption,7080.672
 OWID_WRL,World,2009,oil_consumption,46653.505
 OWID_WRL,World,2009,other_renewable_consumption,891.054
-OWID_WRL,World,2009,primary_energy_consumption,134115.564
 OWID_WRL,World,2009,renewables_consumption,10821.725
 OWID_WRL,World,2009,solar_consumption,55.016
 OWID_WRL,World,2009,wind_consumption,724.212
@@ -685,7 +640,6 @@ OWID_WRL,World,2010,low_carbon_consumption,18871.237
 OWID_WRL,World,2010,nuclear_consumption,7218.503
 OWID_WRL,World,2010,oil_consumption,48087.136
 OWID_WRL,World,2010,other_renewable_consumption,990.475
-OWID_WRL,World,2010,primary_energy_consumption,140562.373
 OWID_WRL,World,2010,renewables_consumption,11652.734
 OWID_WRL,World,2010,solar_consumption,87.907
 OWID_WRL,World,2010,wind_consumption,903.467
@@ -700,7 +654,6 @@ OWID_WRL,World,2011,low_carbon_consumption,19036.297
 OWID_WRL,World,2011,nuclear_consumption,6874.33
 OWID_WRL,World,2011,oil_consumption,48549.975
 OWID_WRL,World,2011,other_renewable_consumption,1033.31
-OWID_WRL,World,2011,primary_energy_consumption,143975.345
 OWID_WRL,World,2011,renewables_consumption,12161.967
 OWID_WRL,World,2011,solar_consumption,168.766
 OWID_WRL,World,2011,wind_consumption,1141.844
@@ -715,7 +668,6 @@ OWID_WRL,World,2012,low_carbon_consumption,19266.268
 OWID_WRL,World,2012,nuclear_consumption,6364.201
 OWID_WRL,World,2012,oil_consumption,49156.72
 OWID_WRL,World,2012,other_renewable_consumption,1109.535
-OWID_WRL,World,2012,primary_energy_consumption,145828.364
 OWID_WRL,World,2012,renewables_consumption,12902.067
 OWID_WRL,World,2012,solar_consumption,259.658
 OWID_WRL,World,2012,wind_consumption,1367.349
@@ -730,7 +682,6 @@ OWID_WRL,World,2013,low_carbon_consumption,20137.543
 OWID_WRL,World,2013,nuclear_consumption,6383.714
 OWID_WRL,World,2013,oil_consumption,49688.511
 OWID_WRL,World,2013,other_renewable_consumption,1187.923
-OWID_WRL,World,2013,primary_energy_consumption,148585.66
 OWID_WRL,World,2013,renewables_consumption,13753.829
 OWID_WRL,World,2013,solar_consumption,356.169
 OWID_WRL,World,2013,wind_consumption,1627.737
@@ -745,7 +696,6 @@ OWID_WRL,World,2014,low_carbon_consumption,20829.361
 OWID_WRL,World,2014,nuclear_consumption,6466.974
 OWID_WRL,World,2014,oil_consumption,50013.654
 OWID_WRL,World,2014,other_renewable_consumption,1274.776
-OWID_WRL,World,2014,primary_energy_consumption,149791.729
 OWID_WRL,World,2014,renewables_consumption,14362.387
 OWID_WRL,World,2014,solar_consumption,503.532
 OWID_WRL,World,2014,wind_consumption,1797.902
@@ -760,7 +710,6 @@ OWID_WRL,World,2015,low_carbon_consumption,21365.767
 OWID_WRL,World,2015,nuclear_consumption,6516.074
 OWID_WRL,World,2015,oil_consumption,50891.976
 OWID_WRL,World,2015,other_renewable_consumption,1361.715
-OWID_WRL,World,2015,primary_energy_consumption,150882.037
 OWID_WRL,World,2015,renewables_consumption,14849.694
 OWID_WRL,World,2015,solar_consumption,649.74
 OWID_WRL,World,2015,wind_consumption,2103.669
@@ -775,7 +724,6 @@ OWID_WRL,World,2016,low_carbon_consumption,22239.107
 OWID_WRL,World,2016,nuclear_consumption,6575.951
 OWID_WRL,World,2016,oil_consumption,51920.156
 OWID_WRL,World,2016,other_renewable_consumption,1377.77
-OWID_WRL,World,2016,primary_energy_consumption,152944.938
 OWID_WRL,World,2016,renewables_consumption,15663.156
 OWID_WRL,World,2016,solar_consumption,825.45
 OWID_WRL,World,2016,wind_consumption,2423.694
@@ -790,7 +738,6 @@ OWID_WRL,World,2017,low_carbon_consumption,23160.114
 OWID_WRL,World,2017,nuclear_consumption,6596.391
 OWID_WRL,World,2017,oil_consumption,52567.52
 OWID_WRL,World,2017,other_renewable_consumption,1457.234
-OWID_WRL,World,2017,primary_energy_consumption,155672.784
 OWID_WRL,World,2017,renewables_consumption,16563.723
 OWID_WRL,World,2017,solar_consumption,1117.368
 OWID_WRL,World,2017,wind_consumption,2852.43
@@ -805,7 +752,6 @@ OWID_WRL,World,2018,low_carbon_consumption,24252.866
 OWID_WRL,World,2018,nuclear_consumption,6711.461
 OWID_WRL,World,2018,oil_consumption,53181.125
 OWID_WRL,World,2018,other_renewable_consumption,1528.605
-OWID_WRL,World,2018,primary_energy_consumption,160063.686
 OWID_WRL,World,2018,renewables_consumption,17541.405
 OWID_WRL,World,2018,solar_consumption,1448.367
 OWID_WRL,World,2018,wind_consumption,3156.845
@@ -820,7 +766,6 @@ OWID_WRL,World,2019,low_carbon_consumption,25427.562
 OWID_WRL,World,2019,nuclear_consumption,6923.412
 OWID_WRL,World,2019,oil_consumption,53619.925
 OWID_WRL,World,2019,other_renewable_consumption,1614.027
-OWID_WRL,World,2019,primary_energy_consumption,162194.29
 OWID_WRL,World,2019,renewables_consumption,18504.151
 OWID_WRL,World,2019,solar_consumption,1792.996
 OWID_WRL,World,2019,wind_consumption,3540.051

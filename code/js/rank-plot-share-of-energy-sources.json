@@ -25,17 +25,13 @@
             }
         },
         {
-            "name": "min_year",
-            "value": 2010,
-            "bind": {
-                "input": "text"
-            }        
-        },
-        {
             "name": "max_year",
             "value": 2019,
             "bind": {
-                "input": "text"
+                "input": "range",
+                "min": 1965,
+                "max": 2019,
+                "step": 1
             }
         }
     ],
@@ -59,7 +55,7 @@
             "filter": "datum.rank <= top_n"
         },
         {
-            "filter": "min_year <= datum.year <= max_year"
+            "filter": "datum.year <= max_year"
         }  
     ],
     "encoding": {
