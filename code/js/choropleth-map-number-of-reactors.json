@@ -5,7 +5,7 @@
   "height": 600,
   "projection": {"type": "equirectangular"},
   "data": {
-    "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-stuff/master/js/ne_110m_admin_0_countries.topojson",
+    "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/js/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
   },
   "transform": [
@@ -13,7 +13,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-stuff/master/data/country_and_reactor_freq.csv"
+          "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/country_and_reactor_freq.csv"
         },
         "key": "Country",
         "fields": ["nuclear_reactor_freq"]

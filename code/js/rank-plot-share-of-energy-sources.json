@@ -114,7 +114,7 @@
                     "condition": {
                         "param": "sel_brand_leg",
                         "empty": false,
-                        "value": 3
+                        "value": 4
                     },
                     "value": 1
                 }
