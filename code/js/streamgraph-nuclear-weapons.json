@@ -10,6 +10,13 @@
     {"calculate": "datum.Nuclear_Weapons_Count", "as": "Nuclear Weapons Count"}
   ],
   "mark": "area",
+  "params": [
+    {
+      "name": "country_legend_select",
+      "select": {"type": "point", "fields": ["Country"]},
+      "bind": "legend"
+    }
+  ],
   "encoding": {
     "x": { 
       "field": "Year", 
@@ -33,6 +40,10 @@
     "color": {
       "field":"Country", 
       "scale":{"scheme": "category20"}
+    },
+    "opacity": {
+      "condition": {"param": "country_legend_select", "value": 1},
+      "value": 0.2
     },
     "tooltip": [
       {"field": "Country", "type": "nominal"},
