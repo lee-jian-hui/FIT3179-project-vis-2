@@ -1,0 +1,27 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",    
+    "width": 500,
+    "height": 500,
+    "data": {
+        "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/death-rates-from-energy-production-per-twh.csv"
+    },
+    "transform": [
+        {
+            "calculate": "datum.Entity", "as": "Energy Type"
+        }
+    ],
+    "layer": [{
+      "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
+    },{
+      "mark": {"type": "text", "radiusOffset": 10, "fontWeight":"bolder"},
+      "encoding": {
+        "text": {"field": "Deaths per twh", "type": "quantitative"}
+    }
+    }],
+    "encoding": {
+      "theta": {"field": "Deaths per twh", "type": "quantitative", "stack": true},
+      "radius": {"field": "Deaths per twh", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+      "color": {"field": "Energy Type", "type": "nominal",  "scale": {"scheme": "purpleorange"}}
+    }
+  }
+  

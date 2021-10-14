@@ -17,6 +17,16 @@
             }
         },
         {
+            "name": "min_year",
+            "value": 1965,
+            "bind": {
+                "input": "range",
+                "min": 1965,
+                "max": 2019,
+                "step": 1
+            }
+        },
+        {
             "name": "max_year",
             "value": 2019,
             "bind": {
@@ -47,7 +57,7 @@
             "filter": "datum.rank <= top_n"
         },
         {
-            "filter": "datum.year <= max_year"
+            "filter": " min_year <= datum.year && datum.year <= max_year"
         }  
     ],
     "encoding": {
@@ -100,7 +110,7 @@
                 },
                 "size": {
                     "condition": {
-                        "param": "sel_brand_leg",
+                        "param": "widen-on-click",
                         "empty": false,
                         "value": 4
                     },
@@ -111,7 +121,7 @@
         {
             "params": [
                 {
-                    "name": "sel_brand_leg",
+                    "name": "widen-on-click",
                     "select": {
                         "type": "point",
                         "on": "click",
@@ -129,7 +139,7 @@
             "encoding": {
                 "color": {
                     "condition": {
-                        "param": "sel_brand_leg",
+                        "param": "widen-on-click",
                         "empty": false,
                         "value": "black"
                     },
