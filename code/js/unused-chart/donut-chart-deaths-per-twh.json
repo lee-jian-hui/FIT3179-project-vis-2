@@ -1,10 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "A basic donut chart example.",
-  "width": 200,
-  "height": 200,
-  "autosize": "none",
+  "width": 400,
+  "height": 400,
 
+  "config": {
+    "legend": true
+  },
 
   "signals": [
     {
@@ -35,12 +37,12 @@
 
   "data": [
     {
-      "name": "datum",
-      "url": "code/data/death-rates-from-energy-production-per-twh.json",
+      "name": "data",
+      "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/death-rates-from-energy-production-per-twh.json",
       "transform": [
         {
           "type": "pie",
-          "field": "field",
+          "field": "Deaths per twh",
           "startAngle": {"signal": "startAngle"},
           "endAngle": {"signal": "endAngle"},
           "sort": {"signal": "sort"}
@@ -51,32 +53,32 @@
 
   "scales": [
       {
-          "name": "color",
-          "type": "ordinal",
-          "domain": {"data": "datum", "field": "Entity"},
-          "range": {"scheme": "category20"}
+        "name": "color",
+        "type": "ordinal",
+        "domain": {"data": "data", "field": "id"},
+        "range": {"scheme": "category20"}
       }
   ],
 
   "marks": [
-      {
-          "type": "arc",
-          "from": {"data": "datum"},
-          "encode": {
-              "enter": {
-                  "fill": {"scale": "color", "field": "Entity"},
-                  "x": {"signal": "width / 2"},
-                  "y": {"signal": "height / 2"}
-              },
-              "update": {
-                  "startAngle": {"field": "startAngle"},
-                  "endAngle": {"field": "endAngle"},
-                  "padAngle": {"signal": "padAngle"},
-                  "innerRadius": {"signal": "innerRadius"},
-                  "outerRadius": {"signal": "width / 2"},
-                  "cornerRadius": {"signal": "cornerRadius"}
-              }
+    {
+      "type": "arc",
+      "from": {"data": "data"},
+      "encode": {
+          "enter": {
+              "fill": {"scale": "color", "field": "id"},
+              "x": {"signal": "width / 2"},
+              "y": {"signal": "height / 2"}
+          },
+          "update": {
+              "startAngle": {"field": "startAngle"},
+              "endAngle": {"field": "endAngle"},
+              "padAngle": {"signal": "padAngle"},
+              "innerRadius": {"signal": "innerRadius"},
+              "outerRadius": {"signal": "width / 2"},
+              "cornerRadius": {"signal": "cornerRadius"}
           }
       }
+    }
   ]
 }

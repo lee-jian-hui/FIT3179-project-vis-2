@@ -21,16 +21,22 @@
     },
     {"calculate": "datum.nuclear_reactor_freq ", "as": "Nuclear Reactor Frequency"}
   ],
-  "mark": {"type": "geoshape"},
-  "encoding": {
-    "color": {
-      "field": "Nuclear Reactor Frequency",
-      "type": "quantitative",
-      "scale": { "scheme": "viridis", "type": "linear"}    
-    },
-    "tooltip": [
-      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-      {"field": "Nuclear Reactor Frequency", "type": "quantitative"}
-    ]
-  }
+
+  
+  "layer":[
+    {
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "color": {
+          "field": "Nuclear Reactor Frequency",
+          "type": "quantitative",
+          "scale": { "scheme": "darkgold", "type": "linear"}    
+        },
+        "tooltip": [
+          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+          {"field": "Nuclear Reactor Frequency", "type": "quantitative"}
+        ]
+      }
+    }
+  ]
 }

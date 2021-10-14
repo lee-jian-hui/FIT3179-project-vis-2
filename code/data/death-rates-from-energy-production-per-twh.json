@@ -1,17 +1,5 @@
 [
  {
-   "id": 1,
-   "Entity": "Biofuels",
-   "Year": 2014,
-   "Deaths per twh": 0.0048
- },
- {
-   "id": 2,
-   "Entity": "Biomass",
-   "Year": 2014,
-   "Deaths per twh": 4.63
- },
- {
    "id": 3,
    "Entity": "Brown coal",
    "Year": 2014,
@@ -24,16 +12,22 @@
    "Deaths per twh": 24.62
  },
  {
+   "id": 8,
+   "Entity": "Oil",
+   "Year": 2014,
+   "Deaths per twh": 18.43
+ },
+ {
+   "id": 2,
+   "Entity": "Biomass",
+   "Year": 2014,
+   "Deaths per twh": 4.63
+ },
+ {
    "id": 5,
    "Entity": "Gas",
    "Year": 2014,
    "Deaths per twh": 2.821
- },
- {
-   "id": 6,
-   "Entity": "Hydropower",
-   "Year": 2014,
-   "Deaths per twh": 0.0235
  },
  {
    "id": 7,
@@ -42,10 +36,16 @@
    "Deaths per twh": 0.071
  },
  {
-   "id": 8,
-   "Entity": "Oil",
+   "id": 10,
+   "Entity": "Wind",
    "Year": 2014,
-   "Deaths per twh": 18.43
+   "Deaths per twh": 0.035
+ },
+ {
+   "id": 6,
+   "Entity": "Hydropower",
+   "Year": 2014,
+   "Deaths per twh": 0.0235
  },
  {
    "id": 9,
@@ -54,9 +54,9 @@
    "Deaths per twh": 0.019
  },
  {
-   "id": 10,
-   "Entity": "Wind",
+   "id": 1,
+   "Entity": "Biofuels",
    "Year": 2014,
-   "Deaths per twh": 0.035
+   "Deaths per twh": 0.0048
  }
 ]

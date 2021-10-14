@@ -20,7 +20,8 @@ h1{
 h2{
     text-align: center;
     size: 25px;
-    color: #c6f768;
+    /* color: #c6f768; */
+    color: yellow;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -43,6 +44,9 @@ p{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.subtitle-container{
+    background-color: black
+}
 
 
 

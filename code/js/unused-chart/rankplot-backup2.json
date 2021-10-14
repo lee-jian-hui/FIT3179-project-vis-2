@@ -35,8 +35,12 @@
                 "max": 2019,
                 "step": 1
             }
+        },
+        {
+            "name": "energy_type_legend_select",
+            "select": {"type": "point", "fields": ["Energy Type"]},
+            "bind": "legend"
         }
-        
     ],
     "transform": [
         {
