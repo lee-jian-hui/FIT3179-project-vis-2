@@ -34,6 +34,10 @@
 
 
 
+.empty-container{
+	width: max-content;
+	height: 30px
+}
 
 
 
