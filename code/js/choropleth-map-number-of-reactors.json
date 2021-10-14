@@ -22,7 +22,6 @@
     {"calculate": "datum.nuclear_reactor_freq ", "as": "Nuclear Reactor Frequency"}
   ],
 
-  
   "layer":[
     {
       "mark": {"type": "geoshape"},

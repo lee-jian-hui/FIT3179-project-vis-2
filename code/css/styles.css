@@ -5,7 +5,8 @@
 .page{
 	width: 1400px;    
 	background-color: #ffe400;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 35px;
 }
 
@@ -35,11 +36,13 @@
 
 
 .empty-container{
-	width: max-content;
-	height: 30px
+	height: 30px;
+	/* background-color: black */
 }
 
-
+.subtitle-container{
+    background-color: black
+}
 
 
 
