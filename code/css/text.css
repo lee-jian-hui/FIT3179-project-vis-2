@@ -3,33 +3,45 @@
 
 h1{
     text-align: center;
-    size: 50px;
+    font-size: 70px;
     font-weight: 900;
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+.title{
+    text-align: center;
+    font-size: 65px;
+    font-weight: 900;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 h2{
     text-align: center;
     size: 25px;
-    color: #fcd303;
+    color: #c6f768;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p{
+    color: black;
+    font-weight: 600;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 
-.p1{
+.centered-p{
     size: 10px;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
-
-
-
-
-
-
-
+.left-p{
+    size: 10px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 
 

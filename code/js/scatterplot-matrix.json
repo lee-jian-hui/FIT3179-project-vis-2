@@ -3,7 +3,7 @@
 
     "repeat": {
       "row": ["Nuclear Warheads Count", "Share of Nuclear Energy of Global Energy Production", "GDP (per capita)"],
-      "column": ["Miles_per_Gallon", "Acceleration", "Horsepower"]
+      "column": ["GDP (per capita)", "Share of Nuclear Energy of Global Energy Production", "Nuclear Warheads Count"]
     },
 
     "spec": {

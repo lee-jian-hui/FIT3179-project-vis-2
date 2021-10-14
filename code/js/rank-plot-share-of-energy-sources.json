@@ -2,14 +2,6 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 500,
     "height": 500,
-    "title": {
-        "text": "Rank of Energy Type",
-        "color":"tomato" ,
-        "fontSize": 22,
-        "align": "center",
-        "anchor": "middle",
-        "baseline": "middle"
-    },
     "data": {
         "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/world-energy-consumption-long-format.csv"
     },
