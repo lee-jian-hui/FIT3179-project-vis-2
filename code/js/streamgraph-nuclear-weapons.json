@@ -1,6 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 600, "height": 500,
+  "background": "grey",
   "data": {
     "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/number-of-nuclear-warheads-in-the-inventory-of-the-nuclear-powers.csv"
   },
