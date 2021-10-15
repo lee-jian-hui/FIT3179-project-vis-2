@@ -2,12 +2,34 @@
 	width: max-content;
 }
 
+body{
+	/* background-image: url("color-scheme/colorgreen_nuclear_symbol");
+
+
+
+	/* background-attachment; */
+	
+	position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-image: url("/image-assests/thumb-1920-82371.jpg");
+	background-repeat: repeat-y;
+    background-size: cover;
+}
+
+
 .page{
 	width: 1400px;    
-	background-color: #ffe400;
+	/* background-color: #ffe400; */
+	background-color: rgba(256, 228, 00, 0.7);
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 35px;
+	border-left: black;
+	border-right: black;
+	border-left-width: 5px;
+	border-right-width: 5px;
 }
 
 
