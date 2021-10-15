@@ -115,7 +115,8 @@
             "encoding": {
                 "color": {
                     "field": "Energy Type", 
-                    "scale": {"scheme": "category20"}
+                    "scale": {"range": ["#0ed145", "#000000", "#000f24", "#85cfec", "#3f48cc", "#b83dba", "#480249", "#b23b1c", "#ff0000", "#00561b", "#ff00c8", "#001eff"]}
+
                 },
                 "size": {
                     "condition": {
