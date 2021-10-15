@@ -115,7 +115,7 @@
             "encoding": {
                 "color": {
                     "field": "Energy Type", 
-                    "scale": {"range": ["#0ed145", "#000000", "#000f24", "#85cfec", "#3f48cc", "#b83dba", "#480249", "#b23b1c", "#ff0000", "#00561b", "#ff00c8", "#001eff"]}
+                    "scale": {"range": ["#0ed145", "#244100", "#860000", "#85cfec", "#3f48cc", "#b83dba", "#480249", "#b23b1c", "#ff0000", "#00561b", "#ff00c8", "#001eff"]}
 
                 },
                 "size": {
@@ -159,9 +159,14 @@
                         "value": "black"
                     },
                     "field": "Energy Type",
-                    "legend": {"symbolType": "square", "labelFontSize": 15, "titleFontSize":25}
-                }
+                    "legend": {"type": "symbol", "symbolType": "square", "labelFontSize": 20, "titleFontSize":25, "titleFontWeight":"bold"}
+                },
+                "tooltip": [
+                    {"field": "Energy Type", "type": "nominal"},
+                    {"field": "rank", "type": "quantitative"}
                 
+                ]
+    
             }
         }
     ]

@@ -17,7 +17,7 @@ body{
 	width: 1400px;    
 	/* background-color: #ffe400; */
 	/* yellow */
-	background-color: rgba(256, 228, 00, 0.7);
+	background-color: rgba(256, 228, 00, 0.8);
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 35px;
@@ -54,7 +54,9 @@ body{
 }
 
 .subtitle-container{
-    background-color: black
+    background-color: black;
+	width: auto;
+	height: fit-content;
 }
 
 .vis-container{

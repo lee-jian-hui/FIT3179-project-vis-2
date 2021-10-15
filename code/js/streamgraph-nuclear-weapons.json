@@ -25,6 +25,7 @@
     }
   ],
   "encoding": {
+  
     "x": { 
       "field": "Year", 
       "type": "ordinal",
@@ -47,7 +48,8 @@
     },
     "color": {
       "field":"Country", 
-      "scale":{"scheme": "category10"}
+      "scale":{"scheme": "category10"},
+      "legend": {"type": "symbol", "symbolType": "square", "labelFontSize": 20, "titleFontSize":25, "titleFontWeight":"bold"}
     },
     "opacity": {
       "condition": {"param": "country_legend_select", "value": 1},
@@ -58,5 +60,6 @@
       {"field": "Nuclear Weapons Count", "type": "quantitative"},
       {"field": "Year", "type": "ordinal"}
     ]
+    
   }
 }

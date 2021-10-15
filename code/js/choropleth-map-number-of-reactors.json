@@ -1,6 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Nuclear Reactor Count by Country (until 2021)",
   "width": "container",
   "height": "container",
   "background": null,
@@ -36,8 +35,7 @@
       "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
       "encoding": {
         "tooltip": [
-          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-          {"title": "Data not available in + datum.Country"}
+          {"field": "properties.NAME", "type": "nominal", "title": "Country"}
         ]
       }
     },
@@ -49,14 +47,38 @@
           "type": "quantitative",
           "scale": { 
             "type": "threshold", 
-            "domain": [1, 10, 50, 100], 
+            "domain": [5, 25, 50, 100], 
             "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603", "#421500"] 
-          }       
+          },
+          "legend": {
+            "title": "Reactor Freq", 
+            "type": "symbol", 
+            "symbolType": "square", 
+            "labelFontSize": 12, 
+            "labelFontWeight":"bolder",
+            "titleFontSize":18, 
+            "titleFontWeight":"bold", 
+            "titleAlign":"left"
+          }
         },
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},
           {"field": "Nuclear Reactor Frequency", "type": "quantitative"}
         ]
+      }
+    },
+    {
+      "mark": { "type": "text", "fontWeight": "bold", "fontSize": 10},
+
+      "encoding": {
+        "text": { "field": "properties.NAME", "type": "nominal" },
+        "opacity": {
+            "condition": {
+                "test": "datum['Country'] == 'United States of America' || datum['Country'] == 'France'  || datum['Country'] == 'Japan' ",
+                "value": 1
+            },
+            "value": 0
+        }
       }
     }
   ]

@@ -54,7 +54,7 @@
             "field": "Energy Type",
             "type": "nominal",
             "scale": {"range": ["#0ed145", "#3e7438","#583903", "#000000", "#85cfec", "#c3c3c3", "#c3c3c3", "#b23b1c","#c3c3c3", "#c3c3c3"]},
-            "legend": {"type": "symbol", "symbolType": "square", "labelFontSize": 15, "titleFontSize":25}
+            "legend": {"type": "symbol", "symbolType": "square", "labelFontSize": 20, "titleFontSize":25}
         },
         "fillOpacity": {
             "condition": {
