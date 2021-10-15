@@ -28,7 +28,7 @@
     <div class="pure-g">
       <div class="pure-u-1" style="width:max-content ;">
         <span class="title">Nuclear, Weapon & Energy </span> <span style="font-size: 100px;">&#9762</span>
-        <h2 style="color: black;">A Growing Threat or A Major Help ?</h2>
+        <h2 style="color: black;">A Growing Threat OR Mankind's Greatest Aide?</h2>
         <h2 style="color: black;font-style: italic;">by: Lee Jian Hui</h2>
       </div>
     </div>
@@ -72,16 +72,18 @@
       </div>
     </div>
     <!-- end pure grid group -->
-  
-    <!-- Choropleth Map -->
-    <div class="pure-g" style="width:900px ;height: 450px;">
-      <div class="pure-u-1 center-item">
-        <div id="vis1" class="vis-container center-item" style="width:900px ;height: 450px"> </div>
+
+    <!-- pure grid group -->
+    <div class="pure-g center-item">
+      <div class="pure-u-1" style="width: fit-content; height: fit-content;">
+        <div id="vis1" class="vis-container"></div>
       </div>
     </div>
     <!-- end pure grid group -->
-  
+
+    
     <div class="empty-container"></div>
+
 
     <!-- Vis 2 -->
     <!-- pure grid group -->
@@ -118,20 +120,18 @@
           adipiscing elit, sed do eiusmod tempor incididunt ut 
           labore et dolore magna a
         </p>
-      </div>    </div>
+      </div>    
+    </div>
     <!-- end pure grid group -->
 
     <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1-5">
-      </div>
-      <div class="pure-u-3-5 center-item">
-        <div id="vis2"  class="vis-container"></div>
-      </div>
-      <div class="pure-u-1-5">
+    <div class="pure-g center-item">
+      <div class="pure-u-1" style="width: fit-content; height: fit-content;">
+        <div id="vis2" class="vis-container"></div>
       </div>
     </div>
     <!-- end pure grid group -->
+
 
     <div class="empty-container"></div>
 
@@ -174,9 +174,9 @@
     <!-- end pure grid group -->
 
     <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1 center-item">
-        <div id="vis3"  class="vis-container"></div>
+    <div class="pure-g center-item">
+      <div class="pure-u-1" style="width: fit-content; height: fit-content;">
+        <div id="vis3" class="vis-container"></div>
       </div>
     </div>
     <!-- end pure grid group -->
@@ -223,19 +223,17 @@
     <!-- end pure grid group -->
 
     <!-- pure grid group -->
-    <div class="pure-g">
-      <div class="pure-u-1 center-item">
-        <div id="vis4"  class="vis-container"></div>
-      </div>
+    <div class="pure-g center-item">
+      <div class="pure-u-1" style="width: fit-content; height: fit-content;">
+        <div id="vis4" class="vis-container" style="height: 900px;"></div>
+      </div>   
     </div>
     <!-- end pure grid group -->
 
 
     <!-- the separator for reference and citations body text -->
-    <div class="empty-container" style="background-color: black; margin-top: 20px;">
-    </div>
-
-
+    <!-- <div class="empty-container" style="background-color: black; margin-top: 20px;">
+    </div> -->
 
   </div> <!-- end page -->
 
@@ -259,7 +257,22 @@
   vegaEmbed('#vis3', specVis3, {"actions": false}).then(function(result) {
   }).catch(console.error);
 
-  vegaEmbed('#vis4', specVis4, {"actions": false}).then(function(result) {
+  vegaEmbed('#vis4', specVis4).then(function(result) {
+    const sliders = document.getElementsByClassName('vega-bindings'); 
+    
+    const newSlider1 = document.getElementById('newSlider1');  
+    const oldSlider1 = document.getElementById("oldSlider1");  
+
+    const newSlider2 = document.getElementById('newSlider2');  
+    const oldSlider2 = document.getElementById("oldSlider2");
+
+    const newSlider3 = document.getElementById('newSlider3');  
+    const oldSlider3 = document.getElementById("oldSlider3");  
+
+    newSlider1.replaceChild(sliders[0], oldSlider1);
+    newSlider2.replaceChild(sliders[1], oldSlider2);
+    newSlider3.replaceChild(sliders[2], oldSlider3);
+
   }).catch(console.error);
 
 </script>

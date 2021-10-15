@@ -1,8 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
-    "height": 500,
-    "background": "grey",
+    "width": "container",
+    "height": "container",
+    "background": null,
     "config": {
         "style": {
             "cell": {
@@ -157,8 +157,10 @@
                         "empty": false,
                         "value": "black"
                     },
-                    "field": "Energy Type"
+                    "field": "Energy Type",
+                    "legend": {"symbolType": "square", "labelFontSize": 15, "titleFontSize":25}
                 }
+                
             }
         }
     ]

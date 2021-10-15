@@ -51,7 +51,9 @@
     "color": {
       "field": "Energy Type", 
       "type": "nominal", 
-      "scale": {"scheme": "darkgold"}
+      "scale": { 
+        "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"] 
+      }
     },
     "opacity": {
       "condition": {"selection": "energy-type-select", "value": 0.6},

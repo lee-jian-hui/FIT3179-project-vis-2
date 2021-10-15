@@ -1,4 +1,4 @@
-iso_code,country,year,biofuel,coal,fossil fuel,gas,hydro,low carbon,nuclear,oil,other renewable,renewables,solar,wind,energy_per_gdp,energy_per_capita
+iso_code,country,year,biofuel_consumption,coal_consumption,fossil_fuel_consumption,gas_consumption,hydro_consumption,low_carbon_consumption,nuclear_consumption,oil_consumption,other_renewable_consumption,renewables_consumption,solar_consumption,wind_consumption,energy_per_gdp,energy_per_capita
 OWID_WRL,World,1965,0.0,16140.191,40552.638,6303.804,2564.441,2685.343,70.944,18108.643,49.959,2614.4,0.0,0.0,2.574,12949.971
 OWID_WRL,World,1966,0.0,16324.107,42689.378,6868.8,2732.827,2883.492,95.648,19496.471,55.017,2787.844,0.0,0.0,2.575,13375.477
 OWID_WRL,World,1967,0.0,16060.823,44325.448,7374.045,2793.732,2963.156,113.906,20890.58,55.518,2849.25,0.0,0.0,2.571,13596.333

@@ -16,6 +16,7 @@ body{
 .page{
 	width: 1400px;    
 	/* background-color: #ffe400; */
+	/* yellow */
 	background-color: rgba(256, 228, 00, 0.7);
 	margin-left: auto;
 	margin-right: auto;
@@ -56,5 +57,11 @@ body{
     background-color: black
 }
 
-
+.vis-container{
+	/* border-width: 10px;
+	border-radius: 20px;
+	border-style: solid; */
+	width: 1250px;
+	height: 700px;
+}
 
