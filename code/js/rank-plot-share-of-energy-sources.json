@@ -3,6 +3,13 @@
     "width": 500,
     "height": 500,
     "background": "grey",
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        }
+    },
     "data": {
         "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/world-energy-consumption-long-format.csv"
     },

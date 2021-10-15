@@ -3,6 +3,14 @@
     "width": 500,
     "height": 400,
     "background": "grey",
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        }
+    },
+
     "data": {
         "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/death-rates-from-energy-production-per-twh.csv"
     },
@@ -12,12 +20,15 @@
         "as": "Energy Type"
     }],
 
-    "layer": [{
-            "params": [{
+    "layer": [
+        {
+            "params": [
+                {
                 "name": "energy-type-select",
                 "select": { "type": "point", "fields": ["Energy Type"] },
                 "bind": "legend"
-            }],
+                }
+            ],
             "mark": { "type": "arc", "innerRadius": 20, "stroke": "#fff" }
         },
         {
@@ -25,6 +36,20 @@
 
             "encoding": {
                 "text": { "field": "Deaths per twh", "type": "quantitative" },
+                "opacity": {
+                    "condition": {
+                        "test": "datum['Energy Type'] == 'Biomass' || datum['Energy Type'] == 'Brown coal'  || datum['Energy Type'] == 'Coal' || datum['Energy Type'] == 'Gas'  || datum['Energy Type'] == 'Oil' ",
+                        "value": 1
+                    },
+                    "value": 0
+                }
+            }
+        },
+        {
+            "mark": { "type": "text", "radiusOffset": 60, "fontWeight": "bolder", "align":"center"},
+
+            "encoding": {
+                "text": { "field": "Energy Type", "type": "nominal" },
                 "opacity": {
                     "condition": {
                         "test": "datum['Energy Type'] == 'Biomass' || datum['Energy Type'] == 'Brown coal'  || datum['Energy Type'] == 'Coal' || datum['Energy Type'] == 'Gas'  || datum['Energy Type'] == 'Oil' ",
