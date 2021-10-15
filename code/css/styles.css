@@ -3,20 +3,9 @@
 }
 
 body{
-	/* background-image: url("color-scheme/colorgreen_nuclear_symbol");
-
-
-
-	/* background-attachment; */
-	
-	/* position: absolute; */
-    /* z-index: 1;
-    width: 100%;
-    height: 100%; */
     background-image: url("/image-assests/nuclear-smoke-cropped.jpg");
 	background-size: 100% 100%;	
 	background-repeat: no-repeat;
-	/* object-fit: fill; */
 }
 
 
@@ -27,10 +16,6 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 35px;
-	border-left: black;
-	border-right: black;
-	border-left-width: 5px;
-	border-right-width: 5px;
 }
 
 
