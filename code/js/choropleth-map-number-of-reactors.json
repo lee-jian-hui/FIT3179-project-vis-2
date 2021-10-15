@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Nuclear Reactor Count by Country (2021)",
+  "title": "Nuclear Reactor Count by Country (until 2021)",
   "width": "container",
   "height": "container",
   "projection": {"type": "equirectangular"},
@@ -22,20 +22,18 @@
     {"calculate": "datum.nuclear_reactor_freq ", "as": "Nuclear Reactor Frequency"}
   ],
 
-  "layer":[
-    {
-      "mark": {"type": "geoshape"},
-      "encoding": {
-        "color": {
-          "field": "Nuclear Reactor Frequency",
-          "type": "quantitative",
-          "scale": { "scheme": "darkgold", "type": "linear"}    
-        },
-        "tooltip": [
-          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-          {"field": "Nuclear Reactor Frequency", "type": "quantitative"}
-        ]
-      }
-    }
-  ]
+
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Nuclear Reactor Frequency",
+      "type": "quantitative",
+      "scale": { "scheme": "viridis", "type": "linear", "reverse":true}    
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+      {"field": "Nuclear Reactor Frequency", "type": "quantitative"}
+    ]
+  }
+
 }
