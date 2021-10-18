@@ -15,21 +15,21 @@
     },
     "params": [
         {
-            "name": "top_n",
+            "name": "Top_Ranks",
             "value": 5,
             "bind": {
+                "name": "Top Ranks",
                 "input": "range",
                 "min": 1,
                 "max": 15,
-                "step": 1,
-                "size": 20
+                "step": 1
             }
-            
         },
         {
-            "name": "min_year",
+            "name": "Minimum_Year",
             "value": 1965,
             "bind": {
+                "name": "Minimum Year",
                 "input": "range",
                 "min": 1965,
                 "max": 2019,
@@ -37,9 +37,10 @@
             }
         },
         {
-            "name": "max_year",
+            "name": "Maximum_Year",
             "value": 2019,
             "bind": {
+                "name": "Maximum Year",
                 "input": "range",
                 "min": 1965,
                 "max": 2019,
@@ -65,10 +66,10 @@
             "groupby": ["year"]
         },
         {
-            "filter": "datum.rank <= top_n"
+            "filter": "datum.rank <= Top_Ranks"
         },
         {
-            "filter": " min_year <= datum.year && datum.year <= max_year"
+            "filter": " Minimum_Year <= datum.year && datum.year <= Maximum_Year"
         }  
     ],
     "encoding": {
@@ -93,7 +94,7 @@
                 "domain": [
                     0.5,
                     {
-                        "expr": "top_n+0.5"
+                        "expr": "Top_Ranks+0.5"
                     }
                 ]
             },
@@ -102,7 +103,7 @@
                 "labelFontSize": 12,
                 "tickMinStep": 1,
                 "tickCount": {
-                    "expr": "top_n"
+                    "expr": "Top_Ranks"
                 },
                 "titleFontSize": 20,
                 "title": "Ranking of Consumption per Energy Type (TwH)"

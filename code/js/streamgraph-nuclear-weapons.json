@@ -67,6 +67,25 @@
           {"field": "Year", "type": "ordinal"}
         ]
       }
+    },
+    {
+       
+      "data": {
+      "values": [
+          {"x": 1, "y": -60, "name": "Russia"},
+          {"x": 1, "y": 100, "name": "USA"}
+        ] 
+      },
+      "mark": {
+        "type": "text",
+        "aria": false,
+        "yOffset": {"field": "y"},
+        "size": 20
+      },
+      "encoding": {
+        "text": {"field": "name", "type": "nominal", "color": "white"},
+        "color": { "value": "white" }
+      }
     }
   ]
 }
